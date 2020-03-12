@@ -1,0 +1,251 @@
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.red-style {
+	color: #c81623;
+}
+@font-face {
+	font-family: 'icomoon';
+ 	src:  url('../fonts/icomoon.eot?7kkyc2');
+ 	src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+ 	font-weight: normal;
+ 	font-style: normal;
+}
+/*shortcur 开始*/
+.shortcur {
+	height: 31px;
+	background-color: #f1f1f1;
+	line-height: 31px;
+}
+.shortcur .fl li {
+	margin-right: 14px;
+}
+.shortcur .spacer {
+	height: 12px;
+	width: 1px;
+	background-color: #666;
+	margin: 9px 16px 10px;
+}
+.fr .icomoon {
+	font-family: 'icomoon';
+	margin-left: 10px;
+	line-height: 31px;
+}
+/*header 开始*/
+.header {
+	position: relative;
+	height: 105px;
+}
+.logo {
+	position: absolute;
+	top: 25px;
+	left: 0px;
+}
+.logo a {
+	display: block;
+	width: 172px;
+	height: 59px;
+	background: url(../img/logo.png) no-repeat;
+	text-indent: -999px;
+	overflow:hidden;
+}
+.search {
+	position: absolute;
+	left: 350px;
+	top: 25px;
+}
+.search input {
+	width: 444px;
+	height: 32px;
+	color: #989898;
+	font-size: 14px;
+	padding-left: 10px;
+	border: 2px solid #b1191a;
+}
+.search button {
+	width: 82px;
+	height: 36px;
+	background-color: #b1191a;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+}
+.shopcar {
+	position: absolute;
+	right: 62px;
+	top: 25px;
+	width: 138px;
+	height: 34px;
+	background-color: #f7f7f7;
+	line-height: 34px;
+	text-align: center;
+	border: 1px solid #dfdfdf;
+}
+.count {
+	position: absolute;
+	left: 104px;
+	top: -9px;
+	height: 14px;
+	line-height: 14px;
+	padding: 3px 5px;
+	background-color: #e60012;
+	border-radius: 15px 15px 15px 0px;
+	color: #fff;
+}
+.shopcar a {
+	margin: 0px 15px;
+}
+.shopcar .icomoon {
+	font-family: 'icomoon';
+}
+.hotwrods {
+	position: absolute;
+	top: 69px;
+	left: 350px;
+}
+.hotwrods a{
+	margin:0 12px;
+}
+/*nav 开始*/
+.nav {
+	height: 45px;
+	border-bottom: 2px solid #b1191a;
+}
+.dt {
+	width: 209px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	background-color: #b1191a;
+}
+.dd {
+	/*float: left;*/
+	height: 466px;
+	background-color: #c81623;
+}
+.menu_item {
+	height: 31px;
+	line-height: 31px;
+	padding: 0 15px;
+	margin-left: 1px;
+	transition: all .3s;
+}
+.menu_item:hover {
+	padding: 0 20px;
+}
+.menu_item a {
+	font-size: 14px;
+	color: #fff;
+}
+.menu_item:hover {
+	background-color: #fff;
+}
+.menu_item:hover a {
+	color: #c81623;
+}
+.nav_item {
+	margin-left: 10px;
+}
+.nav_item li {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+}
+.nav_item li a {
+	float: left;
+	font-size: 14px;
+	padding: 0 31px;
+}
+/*footer开始*/
+.footer {
+	
+	height: 417px;
+	background-color: #f5f5f5;
+}
+.mod-servies {
+	height: 109px;
+	border-bottom: 1px solid #ededed;
+}
+.mod-servies li {
+	float: left;
+	width: 240px;
+	height: 109px;
+}
+.mod-servies h5 {
+	margin: 34px 0 4px 0;
+	font-size: 14px;
+
+}
+.mod-servies-icon {
+	float: left;
+	margin-left: 38px;
+	margin-top: 30px;
+	margin-right: 7px;
+	height: 50px;
+	width: 50px;
+	background: url(../img/icons.png) no-repeat;
+}
+.mod-servies-zheng {
+	background-position: -253px -3px;
+}
+.mod-servies-jisu {
+	background-position: -254px -53px;
+}
+.mod-servies-shouhou {
+	background-position: -257px -106px;
+}
+.mod-servies-fuwu {
+	background-position: -258px -156px;
+}
+.mod-servies-help {
+	background-position: -258px -209px;
+}
+.mod-help {
+	height: 187px;
+	margin: 20px 0;
+	padding-left: 50px;
+	border-bottom: 1px solid #ededed;
+}
+.mod-help dl {
+	float: left;
+	margin-right: 120px;
+}
+.mod-help dt {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+.mod-help .mod-help-app {
+	margin-right: 0;
+}
+.mod-help-app dt {
+	padding-left: 15px;
+}
+.mod-help-app p {
+	padding-left: 15px;
+	margin-top: 5px;
+}
+.mod-copyright {
+	height: 79px;
+	/*background-color: red;*/
+}
+.mod-copyright {
+	/*margin-top: 20px;*/
+	text-align: center;
+}
+.mod-copyright p {
+	/*padding-bottom: 8px;*/
+	line-height: 18px;
+}

@@ -1,0 +1,87 @@
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.register_hd {
+	height: 66px;
+	margin-top: 16px;
+	border-bottom: 2px solid #b1191a;
+}
+.register_title {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	background-color: #ececec;
+	border: 1px solid #ccc;
+}
+.register_title h5 {
+	float: left;
+	font-size: 18px;
+
+}
+.register_bd {
+	margin-top: 20px;
+}
+.register_title p {
+	float: right;
+	font-size: 14px;
+}
+.register_title p a {
+	color: #c81623;
+}
+.register_list {
+	position: relative;
+	width: 563px;
+	height: 375px;
+	margin: 54px auto 0;
+}
+.register_list dt,
+.register_list dd {
+	float: left;
+}
+.register_list dt {
+	width: 90px;
+	text-align: right;
+}
+.register_list_tel {
+	line-height: 36px;
+	margin-bottom: 20px;
+}
+.register_list_tel dt {
+	font-size: 14px;
+}
+.register_list_tel input {
+	width: 238px;
+	height: 34px;
+	outline: none;
+	border: 1px solid #ccc;
+}
+.register_list_tel .error {
+	color: #df3033;
+}
+.register_list_tel .right {
+	color: green;
+}
+.salf {
+	overflow: hidden;
+	margin-left: 124px;
+	line-height: 18px;
+	margin-bottom: 20px;
+}
+.salf .ruo,
+.salf .zhong,
+.salf .qiang {
+	width: 34px;
+	height: 18px;
+	text-align: center;
+	margin-left: 5px;
+}
+.salf .ruo {
+	background-color: #de1111;
+}
+.salf .zhong {
+	background-color: #40b83f;
+}
+.salf .qiang {
+	background-color: #f79100;
+}

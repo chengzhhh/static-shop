@@ -1,0 +1,137 @@
+.sk {
+	position: absolute;
+	left: 185px;
+	top: 40px;
+	width: 56px;
+	height: 32px;
+	padding-left: 14px;
+	line-height: 32px;
+	border-left: 1px solid #b1191a;
+}
+.sk-l ul {
+	padding-left: 28px;
+}
+.sk-l li {
+	float: left;
+	line-height: 45px;
+	margin-right: 56px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.sk-r li {
+	float: left;
+	line-height: 45px;
+	margin-right: 45px;
+	font-size: 14px;
+	font-family: 'icomoon';
+}
+.sk-bd {
+	width: 1212px;
+	margin-top: 25px;
+
+}
+.sk-goods {
+	position: relative;
+	float: left;
+	width: 264px;
+	height: 458px;
+	overflow: hidden;
+	padding: 0 12px;
+	margin-right: 13px;
+	text-align: center;
+	border: 1px solid transparent;
+}
+.sk-goods:hover {
+	border: 1px solid #e12228;
+}
+.sk-goods h5 {
+	font-size: 14px;
+	font-weight: 400;
+}
+.sk-goods p {
+	margin-top: 18px;
+	text-align: left;
+	font-weight: 700;
+}
+.sk-goods em {
+	color: #e60012;
+	font-size: 22px;
+}
+.sk-goods del {
+	color: #ccc;
+	font-size: 14px;
+}
+.surplus {
+	/*margin: 5px 0;*/
+}
+.surplus i {
+	font-size: 14px;
+}
+.surplus-c {
+	display: inline-block;
+	height: 10px;
+	width: 132px;
+	border: 1px solid #b1191a;
+	border-radius: 5px;
+}
+.surplus-cc {
+	height: 10px;
+	width: 87%;
+	background-color: #ed282e;
+}
+.surplus em {
+	font-size: 14px;
+	color: #747474;
+}
+.qianggou {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.sk-goods button {
+	position: absolute;
+		bottom: 0px;
+	left: 0px;
+	width: 288px;
+	height: 49px;
+	background-color: #b1191a;
+	border: 1px solid #b1191a;
+}
+.page {
+	margin: 40px 0;
+	text-align: center;
+}
+/*.page-l {
+	display: inline-block;
+	text-align: center;
+}*/
+.page-l a {
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+}
+.page-l .pn-up {
+	width: 85px;
+	height: 38px;
+}
+.page-r input {
+	width: 48px;
+	height: 38px;
+	outline: none;
+	border: 1px solid #ccc;
+	transition: all .3s;
+}
+.page-r input:focus {
+	width: 58px;
+	text-align: center;
+}
+.page-r button {
+	width: 54px;
+	height: 36px;
+	outline: none;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+}
